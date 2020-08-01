@@ -6,6 +6,6 @@ yum -y update
 curl --location https://rpm.nodesource.com/setup_12.x | bash -
 yum -y install nodejs
 
-npm install -g pm2
+sudo npm install -g pm2
 pm2 update
 npm install
