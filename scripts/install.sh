@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+cd /tmp/
+
 yum -y update
 
 curl --location https://rpm.nodesource.com/setup_12.x | bash -
