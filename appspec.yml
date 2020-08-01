@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /tmp/
 hooks:
-  AfterInstall:
+  BeforeInstall:
     - location: scripts/install
       timeout: 100
       runas: root
