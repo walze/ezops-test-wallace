@@ -1,10 +1,11 @@
-#!/bin/bash
-cd /tmp/
+#!/usr/bin/env bash
+set -e
 
-sudo yum install -y gcc-c++ make
-curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
-sudo yum install -y build-essential
-sudo yum install -y nodejs
+yum -y update
 
-npm install pm2 -g
+curl --location https://rpm.nodesource.com/setup_12.x | bash -
+yum -y install nodejs
+
+npm install -g pm2
+pm2 update
 npm install
