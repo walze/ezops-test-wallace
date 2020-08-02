@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /tmp/
+cd /app
 
 npm test

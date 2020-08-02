@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /tmp/
+    destination: /app
 hooks:
   Install:
     - location: scripts/install.sh

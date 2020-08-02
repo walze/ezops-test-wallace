@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-cd /tmp/
+cd /app
 
-yum -y update
+sudo yum -y update
 
-curl --location https://rpm.nodesource.com/setup_12.x | bash -
-yum -y install nodejs
+sudo curl --location https://rpm.nodesource.com/setup_12.x | sudo bash -
+sudo yum -y install nodejs
 
 sudo npm install -g pm2
 pm2 update
