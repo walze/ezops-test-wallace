@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 cd /app
 
+sudo chmod -R 777 /app
+
 sudo yum -y update
 
 sudo curl --location https://rpm.nodesource.com/setup_12.x | sudo bash -
