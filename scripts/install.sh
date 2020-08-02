@@ -10,4 +10,4 @@ sudo yum -y install nodejs
 
 sudo npm install -g pm2
 pm2 update
-npm install
+sudo npm install
