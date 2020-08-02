@@ -12,3 +12,7 @@ hooks:
     - location: scripts/start.sh
       timeout: 100
       runas: root
+  ValidateService:
+    - location: scripts/test.sh
+      timeout: 100
+      runas: root
