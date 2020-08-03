@@ -17,7 +17,7 @@ var Message = mongoose.model('Message', {
 var dbUrl = 'mongodb+srv://12345:12345@cluster0.xxocg.mongodb.net/Cluster0?retryWrites=true&w=majority'
 
 app.get('/api', (req, res) => {
-  res.send({ ok: true })
+  res.send({ ok: false })
 })
 
 app.get('/messages', (req, res) => {
